@@ -1,0 +1,58 @@
+body {
+  font-family: "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+  background-color: #333333;
+  color: whitesmoke;
+}
+.main-h1 {
+  text-align: center;
+}
+.status {
+  margin-bottom: 10px;
+}
+ol {
+  list-style: none;
+}
+
+.square {
+  background: #333333;
+  border: 2.5px solid lightcoral;
+  color: whitesmoke;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 50px;
+  height: 50px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 50px;
+  cursor: pointer;
+}
+.game-board {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.square:focus {
+  outline: none;
+}
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.history ol {
+  margin-left: -3vw;
+  margin-top: 5vh;
+}
+.next-player {
+  padding-bottom: 10px;
+  color: whitesmoke;
+  font-weight: bold;
+}
+.buttons {
+  margin: 3px;
+}
